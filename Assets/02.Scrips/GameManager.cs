@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
     {
         hpGauge.GetComponent<Image>().fillAmount -= 0.2f;
 
-        if (hpGauge.GetComponent<Image>().fillAmount <= 0)
+        if (hpGauge.GetComponent<Image>().fillAmount <= 0.1f)
         {
             gameOver_Text.SetActive(true);
             Time.timeScale = 0f;
