@@ -554,6 +554,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 0.2
+  minPos_x: -8
+  maxPos_x: 8
 --- !u!212 &1479565158
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -686,6 +688,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOver_Text: {fileID: 2060184391}
+  fullHP: 100
+  myHP: 20
 --- !u!4 &1707407159
 Transform:
   m_ObjectHideFlags: 0
