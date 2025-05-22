@@ -33,8 +33,6 @@ public class ArrowController : MonoBehaviour
             gameManager.GetComponent<GameManager>().HurtHP();
 
             Destroy(gameObject);
-
-            
         }
 
         // Y 위치가 특정 값보다 작아지면 화살 객체 삭제
